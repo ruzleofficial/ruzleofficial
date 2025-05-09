@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(assets/bg-color.png);
+    background-size: 1000px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    width: 180px;
+    margin-bottom: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    margin: 0 50px;
+    vertical-align: middle;
+  }
+  
+  .button {
+    background-color: #f1f4f7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #000;
+  }
+
+  
+  .button:hover {
+    background-color: #787878;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .icons8-tiktok { 
+    .icons8-tiktok {
+        filter: brightness(0) invert(1); /* Membuat gambar jadi putih */
+      }
+      
+}
+.icon {
+    width: 35px;
+    height: 40px;
+    fill: white;
+    color: white; /* Ini penting untuk currentColor agar putih */
+    transition: transform 0.3s ease;
+  }
+
+  .icon:hover {
+    transform: scale(1.4);
+    opacity: 0.8;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+  
+  
